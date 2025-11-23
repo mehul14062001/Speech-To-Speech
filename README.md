@@ -127,7 +127,7 @@ Then, to train the HiFiGAN:
     └── WavLM.py                            # wavlm modules (from original WavLM repo)
 ```
 
-## **Update for local system**
+## **Update for local inferencing**
 
 1. Download the [prematch_g_02500000.pt](https://github.com/bshall/knn-vc/releases/download/v0.1/g_02500000.pt) model and move it to the "hifigan" folder
 2. Download the [WavLM-Large.pt](https://github.com/bshall/knn-vc/releases/download/v0.1/prematch_g_02500000.pt) model and move it to the "wavlm" folder
@@ -146,7 +146,7 @@ Then, to train the HiFiGAN:
 
    ```
 
-4. Run the knnvc_demo.py file (make sure to change the path for the source and refer3ence audio files)
+4. Run the knnvc_demo.py file (make sure to change the path for the source and reference audio files)
 
 ## Acknowledgements
 
